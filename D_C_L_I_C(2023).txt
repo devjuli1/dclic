@@ -1,0 +1,2 @@
+_ creer un site responsive design de cv et de lettre de motivation à base d'un formulaire(ils feront entrer leurs données:réponses aux question sur leur identité,leur connaissances du metier,leur motivation,photos, tout ce qui est necessaires pour la qualité du dosssier,mettre en place des pistes d'évaluation de leur niveau si possible.
+_cible: la jeunesse burkinabé et africaine

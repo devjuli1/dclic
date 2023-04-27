@@ -1,0 +1,563 @@
+Aller au contenu
+Pierre Giraud
+Les cours
+Les livres PDF
+Les articles
+Contact
+
+Les propriétés CSS liées au texte
+Télécharger le PDF du cours
+
+Livret PDF du cours
+Cours complet HTML et CSS
+INTRODUCTION AU COURS HTML ET CSS
+Introduction au cours HTML et CSS
+Définition et usage du HTML et du CSS
+Evolution de l'informatique et des langages Web
+Travail en local et en production
+Choix et installation d'un éditeur de texte
+LES BASES DU HTML
+Eléments, balises et attributs HTML
+Structure minimale d’une page HTML valide
+Enregistrement et affichage d’une page HTML
+L’indentation et les commentaires en HTML
+Les titres et les paragraphes en HTML
+Les espaces et retours à la ligne en HTML
+Définir le niveau d’importance des contenus en HTML
+Créer des listes en HTML
+Créer des liens en HTML
+Envoi de mails et téléchargement de fichiers en HTML
+Compatibilité, support et validation du code HTML et CSS
+LES BASES DU CSS
+Sélecteurs et propriétés CSS
+Où écrire le code CSS ?
+Commentaires et indentation en CSS
+Sélecteurs CSS simples et combinateurs
+Les attributs HTML class et id et les sélecteurs CSS associés
+Ordre d’application (cascade) et héritage des règles en CSS
+Les éléments HTML div et span (conteneurs génériques)
+Les niveaux ou “types” d’éléments HTML block et inline
+Notations complètes “long hand” et raccourcies “short hand’ CSS
+MISE EN FORME DE TEXTES EN CSS
+La propriété CSS font-family et les Google Fonts
+Les autres propriétés CSS liées à la police
+Les propriétés CSS liées au texte
+Gérer la taille des interlignes et des espaces dans les textes en CSS
+Gérer la couleur et l’opacité des textes
+LE MODELE DES BOITES
+Le modèle des boites
+Largeur (width) et hauteur (height) de la boite de contenu des éléments HTML
+Gestion des marges internes ou padding en CSS
+Gestion des bordures en CSS
+Gestion des marges externes (margin) en CSS
+La propriété CSS box-sizing
+Créer des bordures arrondies en CSS
+POSITION ET AFFICHAGE DES ELEMENTS
+La propriété CSS display
+La propriété CSS position
+La propriété CSS float
+Gestion des conflits entre display, position et float
+CREATION DE TABLEAUX HTML
+Créer des tableaux en HTML
+Structurer un tableau HTML
+Mettre en forme un tableau HTML avec du CSS
+INSERTION DE MEDIAS EN HTML
+Insérer des images dans des pages HTML
+Insérer de la musique avec l’élément HTML audio
+Insérer des vidéos avec l’élément HTML video
+L’élément HTML iframe
+FOND, DEGRADES ET OMBRES CSS
+Gérer la couleur de fond des éléments HTML
+Ajouter des images en fond des éléments HTML
+Création de dégradés linéaires en CSS
+Création de dégradés radiaux en CSS
+Ajouter des ombres aux éléments en CSS
+SELECTEURS CSS COMPLEXES
+Les sélecteurs CSS d’attributs
+Les pseudo-classes CSS
+Les pseudo-éléments CSS
+EXERCICE – Création d’un menu horizontal sticky en HTML et CSS
+EXERCICE – Création d’un menu déroulant en HTML et CSS
+FORMULAIRES HTML
+Présentation des formulaires HTML
+Les éléments des formulaires
+Attributs des formulaires et sécurité
+TRANSITIONS, ANIMATIONS ET TRANSFORMATIONS CSS
+Créer des transitions en CSS
+Créer des animations en CSS
+Créer des transformations en CSS
+EXERCICE – Créer un diaporama en HTML et CSS
+MODELE DES BOITES FLEXIBLES - FLEXBOX CSS
+Introduction au modèle des boites flexibles ou flexbox
+Gérer la direction des éléments flexibles ou flex items
+Gérer l’alignement des éléments flexibles
+Gérer la taille et la flexibilité des éléments flexibles
+Cas d’utilisation et limites du flexbox
+EXERCICE – Création d’un menu HTML et CSS en utilisant le flexbox
+RESPONSIVE DESIGN CSS
+Introduction au responsive design
+La balise meta viewport
+Créer un design responsive avec les media queries
+Images responsive
+EXERCICE - Création d'un menu déroulant responsive HTML et CSS
+SEMANTIQUE ET ELEMENTS HTML STRUCTURANTS
+Sémantique et éléments structurants du HTML
+EXERCICE - Création d'un site de CV responsive en HTML et CSS
+MODELE DES GRILLES CSS
+Introduction au modèle des grilles CSS
+Créer une grille et définir des pistes de grille
+Positionner des éléments dans une grille
+Aligner et espacer des éléments dans une grille
+EXERCICE – Création d’une page à 3 colonnes contenant des éléments flexibles
+EVOLUTION ET FUTUR DU CSS
+Le CSS, un quasi langage de programmation
+Les fonctions CSS
+Les propriétés personnalisées ou variables CSS
+Les règles arobase CSS
+Imbrication et héritage étendu
+CONCLUSION DU COURS
+Conclusion du cours HTML et CSS
+Les propriétés liées au texte ne vont pas nous permettre de modifier la forme des caractères de la police mais plutôt d’ajouter des effets autour de notre texte ou de le formater dans la page d’une manière ou d’une autre.
+Dans cette nouvelle leçon, nous allons présenter et étudier quelques-unes des propriétés CSS de type text- les plus utiles et les plus intéressantes et notamment :
+
+La propriété text-align qui va nous permettre de gérer l’alignement du texte ;
+La propriété text-transform qui va nous permettre de gérer la casse du texte (le fait que le texte soit en majuscules ou en minuscules) ;
+La propriété text-decoration qui va nous permettre d’ajouter des éléments de décoration autour du texte comme un trait de soulignement par exemple ;
+La propriété text-indent qui va nous permettre de définir l’indentation d’un texte ;
+La propriété text-shadow qui va nous permettre d’ajouter des ombres autour d’un texte.
+La propriété text-align
+La propriété text-align va nous permettre de définir l’alignement d’un texte par rapport à son élément conteneur.
+
+Nous allons pouvoir choisir parmi les valeurs d’alignement suivantes :
+
+left : valeur par défaut. Le texte sera aligné contre le bord gauche de l’élément qui le contient ;
+center : Le texte sera centré dans l’élément qui le contient ;
+right : Le texte sera aligné contre le bord droite de l’élément qui le contient ;
+justify : Le texte sera justifié (les écarts entre les mots vont être calculés de façon à ce que chaque ligne de texte occupe la même largeur).
+Notez bien que la propriété text-align va toujours aligner le texte dans / par rapport à l’élément qui le contient. Ainsi, appliquer cette propriété à un élément de type inline comme un span par exemple n’aurait aucun sens puisque ce type d’élément possède la même taille que son contenu.
+
+Support HTML présentation propriété CSS text-align
+
+Exemple d'utilisation de la propriété CSS text-align
+
+Résultat de l'utilisation de text-align en CSS
+
+
+ 
+
+La propriété text-transform
+La propriété text-transform va nous permettre de modifier la casse d’un texte ou de certaines parties d’un texte, c’est-à-dire de gérer le fait qu’un texte ou qu’une partie de texte s’affiche en majuscules ou en minuscules.
+
+Cette propriété peut être utile dans le cas de textes générés automatiquement ou dans les cas où nous n’avons pas accès ou ne pouvons pas modifier le texte dans le code HTML directement.
+
+Nous allons pouvoir passer l’une des valeurs suivantes à text-transform :
+
+none : Valeur par défaut. Pas de transformation du texte. Utile pour annuler une transformation transmise par héritage par exemple ;
+lowercase : Transforme tout le texte d’un élément en minuscules ;
+uppercase : Transforme tout le texte d’un élément en majuscules ;
+capitalize : Transforme la première lettre de chaque mot en majuscule ;
+Support HTML présentation propriété CSS text-transform
+
+Exemple d'utilisation de la propriété CSS text-transform
+
+Résultat de l'utilisation de text-transform en CSS
+
+
+ 
+
+La propriété text-decoration
+La propriété text-decoration va nous permettre d’ajouter des décorations à un texte, comme un trait de soulignement ou de surlignement par exemple.
+
+On va pouvoir lui passer jusqu’à trois valeurs qui vont correspondre au type de décoration (valeur obligatoire), à la couleur de la décoration (valeur facultative, couleur actuelle utilisée par défaut) et au style de la décoration (solide par défaut).
+
+Concernant le type de décoration, nous allons pouvoir choisir parmi les valeurs :
+
+underline : ajoute un trait de soulignement au texte ;
+overline : ajoute un trait de surlignement au texte ;
+line-through : ajoute un trait qui va barrer le texte ;
+underline overline : ajoute un trait de soulignement et un trait de surlignement au texte.
+Concernant le style de la décoration, nous allons pouvoir choisir parmi les valeurs :
+
+solid : valeur par défaut ; le trait de décoration sera solide ;
+double : le trait de décoration sera double ;
+dotted : le trait de décoration sera en pointillés ;
+dashed : le trait de décoration sera en tirets ;
+wavy : le trait de décoration sera courbé.
+Support HTML présentation propriété CSS text-decoration
+
+Exemple d'utilisation de la propriété CSS text-decoration
+
+Résultat de l'utilisation de text-decoration en CSS
+
+
+Notez également qu’à l’heure actuelle la définition de la propriété text-decoration est en train d’évoluer puisque de nouvelles sous propriétés CSS nous permettant de gérer un aspect de la décoration à la fois ont été dernièrement proposées. Si cette nouvelle définition est acceptée, alors la propriété text-decoration deviendra la notation raccourcie des propriétés suivantes :
+
+text-decoration-line qui permet de définir une décoration autour du texte ;
+text-decoration-color qui permet de choisir la couleur de la décoration (noire par défaut) ;
+text-decoration-style qui permet de choisir le style de la décoration (solide par défaut).
+La propriété text-decoration-line va accepter les valeurs suivantes :
+
+underline : ajoute un trait de soulignement au texte ;
+overline : ajoute un trait de surlignement au texte ;
+line-through : ajoute un trait qui va barrer le texte ;
+underline overline : ajoute un trait de soulignement et un trait de surlignement au texte.
+La propriété text-decoration-style va accepter les valeurs suivantes :
+
+solid : valeur par défaut ; le trait de décoration sera solide ;
+double : le trait de décoration sera double ;
+dotted : le trait de décoration sera en pointillés ;
+dashed : le trait de décoration sera en tirets ;
+wavy : le trait de décoration sera courbé.
+A noter cependant que pour le moment ces propriétés ne sont pas encore officielles et vont pas encore forcément supportées par tous les navigateurs. Elles devraient cependant bientôt le devenir et c’est pourquoi je les mentionne dans ce cours.
+
+Support HTML présentation propriété CSS text-decoration long hand
+
+Exemple d'utilisation de la propriété CSS text-decoration long hand
+
+Résultat de l'utilisation de text-decoration long hand en CSS
+
+
+ 
+
+La propriété text-indent
+La propriété text-indent va nous permettre de préciser l’indentation c’est-à-dire le retrait de la première ligne d’un texte par rapport au bord de l’élément parent.
+
+Nous allons ici pouvoir passer une valeur en px, em, %, etc. Les valeurs en % vont être exprimées en fonction de la largeur de l’élément parent.
+
+Notez que les valeurs négatives sont acceptées.
+
+Support HTML présentation propriété CSS text-indent
+
+Exemple d'utilisation de la propriété CSS text-indent
+
+Résultat de l'utilisation de text-indent en CSS
+
+
+ 
+
+La propriété text-shadow
+La propriété text-shadow va nous permettre d’ajouter des ombres autour de nos textes. Cette propriété est relativement complexe à maitriser puisqu’elle va pouvoir utiliser jusqu’à 4 valeurs pour définir précisément une ombre et surtout puisqu’on va pouvoir appliquer plusieurs ombres différentes à un même texte grâce à elle.
+
+Les 4 valeurs de text-shadow vont correspondre :
+
+Au déplacement (ou « projection ») horizontal de l’ombre par rapport au texte. En passant une valeur positive, l’ombre est projeté à droite du texte. En passant une valeur négative, l’ombre est projetée à gauche de celui-ci. Cette valeur doit obligatoirement être renseignée ;
+Au déplacement vertical de l’ombre par rapport au texte. En passant une valeur positive, l’ombre est projeté sous le texte. En passant une valeur négative, l’ombre est projetée au-dessus de celui-ci. Cette valeur doit obligatoirement être renseignée ;
+Au rayon de flou de l’ombre. Un flou Gaussien est utilisé ici : plus la valeur est grande, plus l’ombre sera étendue et floue. Cette valeur est facultative ;
+A la couleur de l’ombre. On va ici pouvoir passer toutes les valeurs de couleurs (que nous étudierons plus tard) disponibles.
+Support HTML présentation propriété CSS text-shadow
+
+Exemple d'utilisation de la propriété CSS text-shadow
+
+Résultat de l'utilisation de text-shadow en CSS
+
+
+En plus de cela, nous allons pouvoir définir plusieurs ombres différentes pour un même texte. Pour faire cela, il suffit de séparer les différentes déclarations relatives à chaque ombre par une virgule dans la propriété text-shadow.
+
+Support HTML présentation propriété CSS text-shadow avec plusieurs ombres
+
+Exemple d'utilisation de la propriété CSS text-shadow avec plusieurs ombres
+
+Résultat de l'utilisation de text-shadow en CSS avec plusieurs ombres
+
+
+Comme vous pouvez le voir ci-dessus, il faut faire bien attention avec cette propriété à ne pas rendre le texte illisible pour vos visiteurs ! Pour cela, nous allons pouvoir ajouter de la transparence à nos ombres en utilisant par exemple une notation RGBa pour la couleur. Nous reviendrons sur ces notations dans le chapitre de ce cours dédié à la couleur.
+
+
+Précédent
+Suivant
+Laisser un commentaire
+Vous devez vous connecter pour publier un commentaire.
+
+Logo Pierre Giraud
+Connexion
+Confidentialité
+CGV
+Sitemap
+Facebook Pierre Giraud
+Twitter Pierre Giraud
+Youtube Pierre Giraud
+Linkedin Pierre Giraud
+© Pierre Giraud - Toute reproduction interdite - Mentions légales
+
+Privacy & Cookies PolicyAller au contenu
+Pierre Giraud
+Les cours
+Les livres PDF
+Les articles
+Contact
+
+Les propriétés CSS liées au texte
+Télécharger le PDF du cours
+
+Livret PDF du cours
+Cours complet HTML et CSS
+INTRODUCTION AU COURS HTML ET CSS
+Introduction au cours HTML et CSS
+Définition et usage du HTML et du CSS
+Evolution de l'informatique et des langages Web
+Travail en local et en production
+Choix et installation d'un éditeur de texte
+LES BASES DU HTML
+Eléments, balises et attributs HTML
+Structure minimale d’une page HTML valide
+Enregistrement et affichage d’une page HTML
+L’indentation et les commentaires en HTML
+Les titres et les paragraphes en HTML
+Les espaces et retours à la ligne en HTML
+Définir le niveau d’importance des contenus en HTML
+Créer des listes en HTML
+Créer des liens en HTML
+Envoi de mails et téléchargement de fichiers en HTML
+Compatibilité, support et validation du code HTML et CSS
+LES BASES DU CSS
+Sélecteurs et propriétés CSS
+Où écrire le code CSS ?
+Commentaires et indentation en CSS
+Sélecteurs CSS simples et combinateurs
+Les attributs HTML class et id et les sélecteurs CSS associés
+Ordre d’application (cascade) et héritage des règles en CSS
+Les éléments HTML div et span (conteneurs génériques)
+Les niveaux ou “types” d’éléments HTML block et inline
+Notations complètes “long hand” et raccourcies “short hand’ CSS
+MISE EN FORME DE TEXTES EN CSS
+La propriété CSS font-family et les Google Fonts
+Les autres propriétés CSS liées à la police
+Les propriétés CSS liées au texte
+Gérer la taille des interlignes et des espaces dans les textes en CSS
+Gérer la couleur et l’opacité des textes
+LE MODELE DES BOITES
+Le modèle des boites
+Largeur (width) et hauteur (height) de la boite de contenu des éléments HTML
+Gestion des marges internes ou padding en CSS
+Gestion des bordures en CSS
+Gestion des marges externes (margin) en CSS
+La propriété CSS box-sizing
+Créer des bordures arrondies en CSS
+POSITION ET AFFICHAGE DES ELEMENTS
+La propriété CSS display
+La propriété CSS position
+La propriété CSS float
+Gestion des conflits entre display, position et float
+CREATION DE TABLEAUX HTML
+Créer des tableaux en HTML
+Structurer un tableau HTML
+Mettre en forme un tableau HTML avec du CSS
+INSERTION DE MEDIAS EN HTML
+Insérer des images dans des pages HTML
+Insérer de la musique avec l’élément HTML audio
+Insérer des vidéos avec l’élément HTML video
+L’élément HTML iframe
+FOND, DEGRADES ET OMBRES CSS
+Gérer la couleur de fond des éléments HTML
+Ajouter des images en fond des éléments HTML
+Création de dégradés linéaires en CSS
+Création de dégradés radiaux en CSS
+Ajouter des ombres aux éléments en CSS
+SELECTEURS CSS COMPLEXES
+Les sélecteurs CSS d’attributs
+Les pseudo-classes CSS
+Les pseudo-éléments CSS
+EXERCICE – Création d’un menu horizontal sticky en HTML et CSS
+EXERCICE – Création d’un menu déroulant en HTML et CSS
+FORMULAIRES HTML
+Présentation des formulaires HTML
+Les éléments des formulaires
+Attributs des formulaires et sécurité
+TRANSITIONS, ANIMATIONS ET TRANSFORMATIONS CSS
+Créer des transitions en CSS
+Créer des animations en CSS
+Créer des transformations en CSS
+EXERCICE – Créer un diaporama en HTML et CSS
+MODELE DES BOITES FLEXIBLES - FLEXBOX CSS
+Introduction au modèle des boites flexibles ou flexbox
+Gérer la direction des éléments flexibles ou flex items
+Gérer l’alignement des éléments flexibles
+Gérer la taille et la flexibilité des éléments flexibles
+Cas d’utilisation et limites du flexbox
+EXERCICE – Création d’un menu HTML et CSS en utilisant le flexbox
+RESPONSIVE DESIGN CSS
+Introduction au responsive design
+La balise meta viewport
+Créer un design responsive avec les media queries
+Images responsive
+EXERCICE - Création d'un menu déroulant responsive HTML et CSS
+SEMANTIQUE ET ELEMENTS HTML STRUCTURANTS
+Sémantique et éléments structurants du HTML
+EXERCICE - Création d'un site de CV responsive en HTML et CSS
+MODELE DES GRILLES CSS
+Introduction au modèle des grilles CSS
+Créer une grille et définir des pistes de grille
+Positionner des éléments dans une grille
+Aligner et espacer des éléments dans une grille
+EXERCICE – Création d’une page à 3 colonnes contenant des éléments flexibles
+EVOLUTION ET FUTUR DU CSS
+Le CSS, un quasi langage de programmation
+Les fonctions CSS
+Les propriétés personnalisées ou variables CSS
+Les règles arobase CSS
+Imbrication et héritage étendu
+CONCLUSION DU COURS
+Conclusion du cours HTML et CSS
+Les propriétés liées au texte ne vont pas nous permettre de modifier la forme des caractères de la police mais plutôt d’ajouter des effets autour de notre texte ou de le formater dans la page d’une manière ou d’une autre.
+Dans cette nouvelle leçon, nous allons présenter et étudier quelques-unes des propriétés CSS de type text- les plus utiles et les plus intéressantes et notamment :
+
+La propriété text-align qui va nous permettre de gérer l’alignement du texte ;
+La propriété text-transform qui va nous permettre de gérer la casse du texte (le fait que le texte soit en majuscules ou en minuscules) ;
+La propriété text-decoration qui va nous permettre d’ajouter des éléments de décoration autour du texte comme un trait de soulignement par exemple ;
+La propriété text-indent qui va nous permettre de définir l’indentation d’un texte ;
+La propriété text-shadow qui va nous permettre d’ajouter des ombres autour d’un texte.
+La propriété text-align
+La propriété text-align va nous permettre de définir l’alignement d’un texte par rapport à son élément conteneur.
+
+Nous allons pouvoir choisir parmi les valeurs d’alignement suivantes :
+
+left : valeur par défaut. Le texte sera aligné contre le bord gauche de l’élément qui le contient ;
+center : Le texte sera centré dans l’élément qui le contient ;
+right : Le texte sera aligné contre le bord droite de l’élément qui le contient ;
+justify : Le texte sera justifié (les écarts entre les mots vont être calculés de façon à ce que chaque ligne de texte occupe la même largeur).
+Notez bien que la propriété text-align va toujours aligner le texte dans / par rapport à l’élément qui le contient. Ainsi, appliquer cette propriété à un élément de type inline comme un span par exemple n’aurait aucun sens puisque ce type d’élément possède la même taille que son contenu.
+
+Support HTML présentation propriété CSS text-align
+
+Exemple d'utilisation de la propriété CSS text-align
+
+Résultat de l'utilisation de text-align en CSS
+
+
+ 
+
+La propriété text-transform
+La propriété text-transform va nous permettre de modifier la casse d’un texte ou de certaines parties d’un texte, c’est-à-dire de gérer le fait qu’un texte ou qu’une partie de texte s’affiche en majuscules ou en minuscules.
+
+Cette propriété peut être utile dans le cas de textes générés automatiquement ou dans les cas où nous n’avons pas accès ou ne pouvons pas modifier le texte dans le code HTML directement.
+
+Nous allons pouvoir passer l’une des valeurs suivantes à text-transform :
+
+none : Valeur par défaut. Pas de transformation du texte. Utile pour annuler une transformation transmise par héritage par exemple ;
+lowercase : Transforme tout le texte d’un élément en minuscules ;
+uppercase : Transforme tout le texte d’un élément en majuscules ;
+capitalize : Transforme la première lettre de chaque mot en majuscule ;
+Support HTML présentation propriété CSS text-transform
+
+Exemple d'utilisation de la propriété CSS text-transform
+
+Résultat de l'utilisation de text-transform en CSS
+
+
+ 
+
+La propriété text-decoration
+La propriété text-decoration va nous permettre d’ajouter des décorations à un texte, comme un trait de soulignement ou de surlignement par exemple.
+
+On va pouvoir lui passer jusqu’à trois valeurs qui vont correspondre au type de décoration (valeur obligatoire), à la couleur de la décoration (valeur facultative, couleur actuelle utilisée par défaut) et au style de la décoration (solide par défaut).
+
+Concernant le type de décoration, nous allons pouvoir choisir parmi les valeurs :
+
+underline : ajoute un trait de soulignement au texte ;
+overline : ajoute un trait de surlignement au texte ;
+line-through : ajoute un trait qui va barrer le texte ;
+underline overline : ajoute un trait de soulignement et un trait de surlignement au texte.
+Concernant le style de la décoration, nous allons pouvoir choisir parmi les valeurs :
+
+solid : valeur par défaut ; le trait de décoration sera solide ;
+double : le trait de décoration sera double ;
+dotted : le trait de décoration sera en pointillés ;
+dashed : le trait de décoration sera en tirets ;
+wavy : le trait de décoration sera courbé.
+Support HTML présentation propriété CSS text-decoration
+
+Exemple d'utilisation de la propriété CSS text-decoration
+
+Résultat de l'utilisation de text-decoration en CSS
+
+
+Notez également qu’à l’heure actuelle la définition de la propriété text-decoration est en train d’évoluer puisque de nouvelles sous propriétés CSS nous permettant de gérer un aspect de la décoration à la fois ont été dernièrement proposées. Si cette nouvelle définition est acceptée, alors la propriété text-decoration deviendra la notation raccourcie des propriétés suivantes :
+
+text-decoration-line qui permet de définir une décoration autour du texte ;
+text-decoration-color qui permet de choisir la couleur de la décoration (noire par défaut) ;
+text-decoration-style qui permet de choisir le style de la décoration (solide par défaut).
+La propriété text-decoration-line va accepter les valeurs suivantes :
+
+underline : ajoute un trait de soulignement au texte ;
+overline : ajoute un trait de surlignement au texte ;
+line-through : ajoute un trait qui va barrer le texte ;
+underline overline : ajoute un trait de soulignement et un trait de surlignement au texte.
+La propriété text-decoration-style va accepter les valeurs suivantes :
+
+solid : valeur par défaut ; le trait de décoration sera solide ;
+double : le trait de décoration sera double ;
+dotted : le trait de décoration sera en pointillés ;
+dashed : le trait de décoration sera en tirets ;
+wavy : le trait de décoration sera courbé.
+A noter cependant que pour le moment ces propriétés ne sont pas encore officielles et vont pas encore forcément supportées par tous les navigateurs. Elles devraient cependant bientôt le devenir et c’est pourquoi je les mentionne dans ce cours.
+
+Support HTML présentation propriété CSS text-decoration long hand
+
+Exemple d'utilisation de la propriété CSS text-decoration long hand
+
+Résultat de l'utilisation de text-decoration long hand en CSS
+
+
+ 
+
+La propriété text-indent
+La propriété text-indent va nous permettre de préciser l’indentation c’est-à-dire le retrait de la première ligne d’un texte par rapport au bord de l’élément parent.
+
+Nous allons ici pouvoir passer une valeur en px, em, %, etc. Les valeurs en % vont être exprimées en fonction de la largeur de l’élément parent.
+
+Notez que les valeurs négatives sont acceptées.
+
+Support HTML présentation propriété CSS text-indent
+
+Exemple d'utilisation de la propriété CSS text-indent
+
+Résultat de l'utilisation de text-indent en CSS
+
+
+ 
+
+La propriété text-shadow
+La propriété text-shadow va nous permettre d’ajouter des ombres autour de nos textes. Cette propriété est relativement complexe à maitriser puisqu’elle va pouvoir utiliser jusqu’à 4 valeurs pour définir précisément une ombre et surtout puisqu’on va pouvoir appliquer plusieurs ombres différentes à un même texte grâce à elle.
+
+Les 4 valeurs de text-shadow vont correspondre :
+
+Au déplacement (ou « projection ») horizontal de l’ombre par rapport au texte. En passant une valeur positive, l’ombre est projeté à droite du texte. En passant une valeur négative, l’ombre est projetée à gauche de celui-ci. Cette valeur doit obligatoirement être renseignée ;
+Au déplacement vertical de l’ombre par rapport au texte. En passant une valeur positive, l’ombre est projeté sous le texte. En passant une valeur négative, l’ombre est projetée au-dessus de celui-ci. Cette valeur doit obligatoirement être renseignée ;
+Au rayon de flou de l’ombre. Un flou Gaussien est utilisé ici : plus la valeur est grande, plus l’ombre sera étendue et floue. Cette valeur est facultative ;
+A la couleur de l’ombre. On va ici pouvoir passer toutes les valeurs de couleurs (que nous étudierons plus tard) disponibles.
+Support HTML présentation propriété CSS text-shadow
+
+Exemple d'utilisation de la propriété CSS text-shadow
+
+Résultat de l'utilisation de text-shadow en CSS
+
+
+En plus de cela, nous allons pouvoir définir plusieurs ombres différentes pour un même texte. Pour faire cela, il suffit de séparer les différentes déclarations relatives à chaque ombre par une virgule dans la propriété text-shadow.
+
+Support HTML présentation propriété CSS text-shadow avec plusieurs ombres
+
+Exemple d'utilisation de la propriété CSS text-shadow avec plusieurs ombres
+
+Résultat de l'utilisation de text-shadow en CSS avec plusieurs ombres
+
+
+Comme vous pouvez le voir ci-dessus, il faut faire bien attention avec cette propriété à ne pas rendre le texte illisible pour vos visiteurs ! Pour cela, nous allons pouvoir ajouter de la transparence à nos ombres en utilisant par exemple une notation RGBa pour la couleur. Nous reviendrons sur ces notations dans le chapitre de ce cours dédié à la couleur.
+
+
+Précédent
+Suivant
+Laisser un commentaire
+Vous devez vous connecter pour publier un commentaire.
+
+Logo Pierre Giraud
+Connexion
+Confidentialité
+CGV
+Sitemap
+Facebook Pierre Giraud
+Twitter Pierre Giraud
+Youtube Pierre Giraud
+Linkedin Pierre Giraud
+© Pierre Giraud - Toute reproduction interdite - Mentions légales
+
+Privacy & Cookies Policy
